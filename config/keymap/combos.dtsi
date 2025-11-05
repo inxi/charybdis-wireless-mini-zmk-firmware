@@ -12,20 +12,71 @@
             bindings = <&td_bore>;
             key-positions = <38 39>;
         };
-        
-        combo_left_click {
-            bindings = <&mkp LCLK>;
-            key-positions = <25 26>;
-        };
-        
-        combo_middle_click {
-            bindings = <&mkp MCLK>;
-            key-positions = <26 27>;
+
+        combo_minus {
+            bindings = <&kp MINUS>;
+            key-positions = <25 34>;
+            layers = <0>;
         };
 
-        combo_right_click {
-            bindings = <&mkp RCLK>;
-            key-positions = <27 28>;
+        combo_plus {
+            bindings = <&kp PLUS>;
+            key-positions = <26 33>;
+            layers = <0>;
+        };
+
+        combo_equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <27 32>;
+            layers = <0>;
+        };
+
+        combo_underscore {
+            bindings = <&kp UNDER>;
+            key-positions = <28 31>;
+            layers = <0>;            
+        };
+
+        combo_pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <29 30>;
+            layers = <0>;
+        };
+
+        combo_fslash {
+            bindings = <&kp FSLH>;
+            key-positions = <26 27>;
+            layers = <0>;
+        };
+
+        combo_bslash {
+            bindings = <&kp BSLH>;
+            key-positions = <32 33>;
+            layers = <0>;
+        };
+
+        combo_lbkt {
+            bindings = <&kp LBKT>;
+            key-positions = <2 3>;
+            layers = <0>;
+        };
+
+        combo_rbkt {
+            bindings = <&kp RBKT>;
+            key-positions = <8 9>;
+            layers = <0>;
+        };
+
+        combo_lbrc {
+            bindings = <&kp LBRC>;
+            key-positions = <3 4>;
+            layers = <0>;
+        };
+
+        combo_rbrc {
+            bindings = <&kp RBRC>;
+            key-positions = <7 8>;
+            layers = <0>;
         };
     };
 };
